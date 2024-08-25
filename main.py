@@ -111,3 +111,102 @@ from typing import Any
 #
 
 
+# class Stack:
+#     def __init__(self):
+#         self.stack = []
+#
+#     def push(self, item):
+#         self.stack.append(item)
+#
+#     def pop(self):
+#         if len(self.stack) > 0:
+#             return self.stack.pop()
+#         else:
+#             return None
+#
+#     def peek(self):
+#         if len(self.stack) > 0:
+#             return self.stack[-1]
+#         else:
+#             return None
+#
+#     def is_empty(self):
+#         return len(self.stack) == 0
+#
+#     def size(self):
+#         return len(self.stack)
+#
+#
+# stack = Stack()
+#
+# stack.push(10)
+# stack.push(20)
+# stack.push(30)
+# print(stack.pop())
+# print(stack.peek())
+
+
+# class Queue:
+#     def __init__(self):
+#         self.queue = []
+#
+#     def enqueue(self, item):
+#         self.queue.append(item)
+#
+#     def dequeue(self):
+#         if len(self.queue) > 0:
+#             return self.queue.pop(0)
+#         else:
+#             return None
+#
+#     def is_empty(self):
+#         return len(self.queue) == 0
+#
+#     def size(self):
+#         return len(self.queue)
+#
+#
+# queue = Queue()
+#
+# queue.enqueue(10)
+# queue.enqueue(20)
+# queue.enqueue(30)
+# print(queue.dequeue())
+# print(queue.size())
+
+
+# class Node:
+#     def __init__(self, data):
+#         self.data = data
+#         self.next = None
+#
+# class LinkedList:
+#     def __init__(self):
+#         self.head = None
+#
+#     def append(self, data):
+#         new_node = Node(data)
+#         if not self.head:
+#             self.head = new_node
+#             return
+#         last_node = self.head
+#         while last_node.next:
+#             last_node = last_node.next
+#         last_node.next = new_node
+#
+#     def print_list(self):
+#         current_node = self.head
+#         while current_node:
+#             print(current_node.data)
+#             current_node = current_node.next
+#
+#
+# llist = LinkedList()
+#
+# llist.append(1)
+# llist.append(2)
+# llist.append(3)
+# llist.print_list()
+#
+
+
